@@ -24,4 +24,8 @@ information = "     Alihan;Bayrak;19;Erzurum ".strip()
 print(information.split())# split() ile kelime kelime stringlerine ayırıyoruz
 print("Adı = " + information.split(";")[0])
 
-
+#input
+ad = input("Adınız?")
+sayi1 = input("sayı 1 =?")
+sayi2 = input("sayı 1 =?")
+print(int(sayi1) + int(sayi2))
