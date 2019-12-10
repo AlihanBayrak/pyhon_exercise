@@ -33,5 +33,5 @@ class Customer(Person):
     def __init__(self,creditCardNumber):
         self.creditCardNumber = creditCardNumber
         
-Alihan = Worker.age
-Yasin = Customer
+Aydın= Worker()
+Yasin = Customer()
