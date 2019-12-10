@@ -39,4 +39,9 @@ print(sehirler2)
 print(sehirler)
 print(sehirler3)
 
+sehirler.extend(sehirler3)
+sehirler.sort()
+sehirler.reverse()
+print(sehirler)
+
 
