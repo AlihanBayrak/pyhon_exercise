@@ -24,3 +24,14 @@ class Person:
         
 person1 = Person("Alihan","Bayrak","19")
 print(person1.firstName)
+
+class Worker(Person):
+    def __init__(self,salary):
+        self.salary = salary
+
+class Customer(Person):
+    def __init__(self,creditCardNumber):
+        self.creditCardNumber = creditCardNumber
+        
+Alihan = Worker.age
+Yasin = Customer
